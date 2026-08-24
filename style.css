@@ -1,19 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cinzel Decorative', sans-serif;
 }
-li{
+
+li {
     display: inline-block;
 }
-nav{
+
+nav {
     display: inline-block;
 }
-header{
+
+header {
     margin: 30px 0px 144px 70px;
 }
-a{
+
+a {
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
@@ -23,10 +27,12 @@ a{
     transition: opacity 0.4s;
     text-decoration: none;
 }
-a:hover{
-    opacity: 0.8 ;
+
+a:hover {
+    opacity: 0.8;
 }
-.botao-login{
+
+.botao-login {
     width: 130px;
     height: 38px;
     border-radius: 20px;
@@ -37,27 +43,32 @@ a:hover{
     color: azure;
     transition: background 0.4s;
 }
-.botao-login:hover{
-opacity: 0.8 ;
-background: #063170;
+
+.botao-login:hover {
+    opacity: 0.8;
+    background: #063170;
 }
-.logo{
+
+.logo {
     width: 50%;
     vertical-align: middle;
 }
-.texto{
+
+.texto {
     width: 40%;
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
     margin: 0 0 0 5%;
     text-align: left;
 }
-main{
+
+main {
     text-align: center;
 }
-.botao-explore{
-    width: 120px;
-    height: 30px;
+
+.botao-explore {
+    width: 150px;
+    height: 40px;
     cursor: pointer;
     background: #8eafd8;
     border: none;
@@ -67,20 +78,24 @@ main{
     box-shadow: 0 0 5px #063170;
     transition: opacity 0.3s;
 }
-.botao-explore:hover{
+
+.botao-explore:hover {
     opacity: 0.7;
 }
-.titulo{
-    font-size: 30px;
+
+.titulo {
+    font-size: 40px;
     font-weight: 900;
     color: #052659;
 }
-.sub-titulo{
+
+.sub-titulo {
     color: #052659;
-    line-height: 1.5;
+    line-height: 30px;
 
 }
-.paragrafo{
+
+.paragrafo {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
@@ -88,4 +103,51 @@ main{
     text-align: justify;
     margin: 20px 0 30px 0;
     max-width: 500px;
+}
+footer{
+    text-align: center;
+    background: #f4f4f4;
+    padding: 50px;
+    font-size: 14px;
+    margin-top: 100px;
+}
+@media(max-width: 768px){
+   
+    
+    header {
+        margin: 30px 0px 60px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0 5px 0 0;
+    }
+
+    .botao-login {
+        width: 90px;
+        height: 32px;
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: 500;
+}
+
+.logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+.texto {
+    width: 80%;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
 }
