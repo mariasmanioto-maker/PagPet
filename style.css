@@ -17,7 +17,7 @@ header {
     margin: 30px 0px 144px 70px;
 }
 
-a {
+link-menu {
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+link-menu:hover {
     opacity: 0.8;
 }
 
