@@ -14,8 +14,28 @@ nav {
 }
 
 header {
-    margin: 30px 0px 144px 70px;
+    margin: 0px 0px 144px 0px;
+    background-color: #eff6fc;
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid #ecf0f7;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+.nome{
+font-size: 22px;
+font-weight: 600 ;
+}
+
+.n1{
+color: #072d5c;
+}
+
+.n2{
+color: rgb(0, 174, 255);
+}
+
 
 a {
     font-weight: 600;
@@ -126,12 +146,36 @@ footer {
     border-radius: 15px;
 }
 
+.servicos {
+    padding: 10px 0 100px 0;
+}
+
+.h2-servicos {
+    font-weight: 400;
+    font-size: 22px;
+}
+
 .lista-servicos {
     width: 240px;
+    /*incline <a> <span> <img>*/
+    /* <p> <h1> <div> block*/
+    display: block;
+    text-decoration: none;
+    color: #063170;
+    border: 2px solid;
+    margin: 0 20px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.lista-servicos:hover {
+    box-shadow: 0 0 10px rgb(0, 132, 255);
+    transform: translateY(-2px);
 }
 
 .img-card {
-    width: 100%;
+    width: 80%;
 }
 
 @media(max-width: 768px) {
@@ -176,4 +220,16 @@ footer {
     .img-dog {
         max-height: 250px;
     }
+
+    .h2-servicos {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .lista-servicos {
+        width: 200px;
+        margin: 0 20px;
+        padding: 16px 0;
+    }
+
 }
