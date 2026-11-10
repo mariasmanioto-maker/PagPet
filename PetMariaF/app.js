@@ -8,6 +8,8 @@ async function imagemApi() {
 }
 
 // async --> assincrono 
+
+//imagens de cats
 async function imagemApiCat() {
   // espera chegar a resposta --> await
   let respostaApi = await fetch("https://api.thecatapi.com/v1/images/search?limit=1", {
@@ -19,3 +21,12 @@ async function imagemApiCat() {
 
 }
 imagemApiCat()
+
+function whatZap(){
+
+const texto = "Olá! Vim pelo site da PetCare e gostaria de agendar um horário para meu pet."
+const textoFormatado =encodeURIComponent(texto)
+ const url = "https://wa.me/5599825424?text=" + textoFormatado;
+ open(url, '_blank');
+ console.log(url);
+}
