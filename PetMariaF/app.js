@@ -26,7 +26,7 @@ function whatZap(){
 
 const texto = "Olá! Vim pelo site da PetCare e gostaria de agendar um horário para meu pet."
 const textoFormatado =encodeURIComponent(texto)
- const url = "https://wa.me/5599825424?text=" + textoFormatado;
+ const url = "https://wa.me/5544999825424?text=" + textoFormatado;
  open(url, '_blank');
  console.log(url);
 }

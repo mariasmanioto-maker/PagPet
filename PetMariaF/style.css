@@ -135,7 +135,6 @@ footer {
     background-color: #eff6fc;
     padding: 50px;
     font-size: 14px;
-    margin-top: 100px;
 }
 
 .img-dog {
@@ -145,6 +144,24 @@ footer {
     object-fit: cover;
     margin: 80px auto 0 auto;
     border-radius: 15px;
+}
+
+.sobre{
+    padding: 50px 0 ;
+    background-color: #feffff;
+}
+.video{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    max-width: 640px;
+    height: 350px;
+    border-radius: 15px;
+}
+.titulo-video{
+  text-align: center; 
+  margin-bottom: 20px; 
+  color: #052659;
 }
 
 .servicos {
@@ -239,6 +256,15 @@ footer {
 
     .img-dog {
         max-height: 250px;
+    }
+
+    .video{
+        display: block;
+        margin: 0 auto 0 auto;
+        width: 70%;
+        max-width: 640px;
+        height: 250px;
+        border-radius: 15px;
     }
 
     .h2-servicos {
